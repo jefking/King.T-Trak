@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.TTrak", "King.TTrak\King.TTrak.csproj", "{B350BBD8-C627-46CD-8448-A720B7E33006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.TTrak.Program", "King.TTrak.Program\King.TTrak.Program.csproj", "{3C14217D-17A0-41E3-976C-DDE0F57652A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E2E33BE-5D23-4128-989D-6C1A62536DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B350BBD8-C627-46CD-8448-A720B7E33006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B350BBD8-C627-46CD-8448-A720B7E33006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B350BBD8-C627-46CD-8448-A720B7E33006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B350BBD8-C627-46CD-8448-A720B7E33006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C14217D-17A0-41E3-976C-DDE0F57652A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C14217D-17A0-41E3-976C-DDE0F57652A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C14217D-17A0-41E3-976C-DDE0F57652A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C14217D-17A0-41E3-976C-DDE0F57652A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
