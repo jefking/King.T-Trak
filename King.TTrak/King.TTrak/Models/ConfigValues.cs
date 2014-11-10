@@ -1,6 +1,6 @@
 ﻿namespace King.TTrak.Models
 {
-    public class ConfigValues
+    public class ConfigValues : IConfigValues
     {
     }
 }

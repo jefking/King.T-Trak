@@ -2,14 +2,49 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics;
     using System.Linq;
     using System.Text;
+    using System.Threading;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// T-Trak Azure Table Storage synchronizer
+    /// </summary>
     public class Program
     {
+        #region Methods
+        /// <summary>
+        /// Program Main Entry
+        /// </summary>
+        /// <param name="args">Program Arguments</param>
         public static void Main(string[] args)
         {
+            Trace.TraceInformation("Starting...");
+
+            try
+            {
+                var parameters = new Parameters(args);
+                var config = parameters.Process();
+
+                //Trace.TraceInformation("SQL Server Connection String: '{0}'{3}{3}Storage Account: '{1}'{3}Table Name: '{2}'{3}"
+                //    , config.SqlConnection
+                //    , config.StorageAccountConnection
+                //    , config.StorageTableName
+                //    , Environment.NewLine);
+
+                var sync = new Synchronizer(config);
+                sync.Run().Wait();
+            }
+            catch (Exception ex)
+            {
+                Trace.Fail(ex.ToString());
+            }
+
+            Trace.TraceInformation("Completed.");
+
+            Thread.Sleep(2000);
         }
+        #endregion
     }
 }
