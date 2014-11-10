@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("King.Trak.Integration.Test")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Synchronize Azure Table Storage")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("King.Trak.Integration.Test")]
