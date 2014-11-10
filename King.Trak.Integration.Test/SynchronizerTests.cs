@@ -10,5 +10,10 @@
     [TestFixture]
     public class SynchronizerTests
     {
+        [Test]
+        public void Synchronize()
+        {
+            Assert.Inconclusive();
+        }
     }
 }
