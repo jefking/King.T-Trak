@@ -50,14 +50,11 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\King.TTrak\King.TTrak.csproj">
-      <Project>{b350bbd8-c627-46cd-8448-a720b7e33006}</Project>
-      <Name>King.TTrak</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="King.Azure">
       <HintPath>..\packages\King.Azure.1.1.13\lib\net451\King.Azure.dll</HintPath>
+    </Reference>
+    <Reference Include="King.TTrak">
+      <HintPath>..\packages\King.T-Trak.0.0.0\lib\net451\King.TTrak.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Edm, Version=5.6.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

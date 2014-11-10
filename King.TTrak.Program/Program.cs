@@ -23,11 +23,12 @@
                 var parameters = new Parameters(args);
                 var config = parameters.Process();
 
-                //Trace.TraceInformation("SQL Server Connection String: '{0}'{3}{3}Storage Account: '{1}'{3}Table Name: '{2}'{3}"
-                //    , config.SqlConnection
-                //    , config.StorageAccountConnection
-                //    , config.StorageTableName
-                //    , Environment.NewLine);
+                Trace.TraceInformation("From: '{0}'; {1}{4}{4}To: '{2}'; {3}{4}"
+                    , config.FromConnectionString
+                    , config.FromTable
+                    , config.ToConnectionString
+                    , config.ToTable
+                    , Environment.NewLine);
 
                 var sync = new Synchronizer(config);
                 sync.Run().Wait();

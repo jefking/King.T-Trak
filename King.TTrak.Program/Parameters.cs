@@ -46,6 +46,10 @@
         {
             return new ConfigValues
             {
+                FromConnectionString = this.arguments.ElementAt(0),
+                FromTable = this.arguments.ElementAt(1),
+                ToConnectionString = this.arguments.ElementAt(2),
+                ToTable = this.arguments.ElementAt(3),
             };
         }
         #endregion
