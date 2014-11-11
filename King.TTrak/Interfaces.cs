@@ -3,6 +3,9 @@
     using System.Threading.Tasks;
 
     #region ISynchronizer
+    /// <summary>
+    /// Aszure Table Synchronizer Interface
+    /// </summary>
     public interface ISynchronizer
     {
         #region Methods

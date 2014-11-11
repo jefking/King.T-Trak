@@ -4,12 +4,12 @@
     using King.TTrak.Models;
     using Microsoft.WindowsAzure.Storage.Table;
     using System;
-    using System.Linq;
     using System.Diagnostics;
+    using System.Linq;
     using System.Threading.Tasks;
 
     /// <summary>
-    /// Synchronizer
+    /// Aszure Table Synchronizer
     /// </summary>
     public class Synchronizer : ISynchronizer
     {
