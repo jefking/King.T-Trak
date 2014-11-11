@@ -2,9 +2,9 @@
 + Move data between Tables
 
 
-## [NuGet](https://www.nuget.org/packages/King.T-Trak/)
+## [NuGet](https://www.nuget.org/packages/King.TTrak/)
 ```
-PM> Install-Package King.T-Trak
+PM> Install-Package King.TTrak
 ```
 
 ### [Wiki](https://github.com/jefking/King.T-Trak/wiki)
