@@ -9,7 +9,7 @@
         /// <summary>
         /// From Table Name
         /// </summary>
-        public string FromTable
+        public virtual string FromTable
         {
             get;
             set;
@@ -18,7 +18,7 @@
         /// <summary>
         /// To Table Name
         /// </summary>
-        public string ToTable
+        public virtual string ToTable
         {
             get;
             set;
@@ -27,7 +27,7 @@
         /// <summary>
         /// From Connection String
         /// </summary>
-        public string FromConnectionString
+        public virtual string FromConnectionString
         {
             get;
             set;
@@ -36,7 +36,7 @@
         /// <summary>
         /// To Connection String
         /// </summary>
-        public string ToConnectionString
+        public virtual string ToConnectionString
         {
             get;
             set;
