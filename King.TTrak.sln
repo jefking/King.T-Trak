@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.TTrak", "King.TTrak\King.TTrak.csproj", "{B350BBD8-C627-46CD-8448-A720B7E33006}"
 EndProject
@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FE0D26
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.TTrak.Unit.Test", "King.TTrak.Unit.Test\King.TTrak.Unit.Test.csproj", "{7E33B614-7BD0-45FD-827A-0042C34B3122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Trak.Integration.Test", "King.Trak.Integration.Test\King.Trak.Integration.Test.csproj", "{50E42856-6990-4A7E-9700-9053FDC91D27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.TTrak.Integration.Test", "King.Trak.Integration.Test\King.TTrak.Integration.Test.csproj", "{50E42856-6990-4A7E-9700-9053FDC91D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

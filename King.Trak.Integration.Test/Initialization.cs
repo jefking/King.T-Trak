@@ -1,4 +1,4 @@
-﻿namespace King.Trak.Integration.Test
+﻿namespace King.TTrak.Integration.Test
 {
     using NUnit.Framework;
     using System.Configuration;
