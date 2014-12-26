@@ -70,7 +70,6 @@
             from.Received().Query(Arg.Any<TableQuery>());
             to.Received().CreateIfNotExists();
             to.Received().Insert(entities);
-
         }
 
         [Test]
