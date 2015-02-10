@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>King.TTrak</id>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <title>King.T-Trak</title>
     <authors>Jef King</authors>
     <owners>Jef King</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Synchronize Azure Table Storage</description>
     <summary>Synchronize Azure Table Storage</summary>
-    <releaseNotes>Synchronize between Azure Tables!</releaseNotes>
+    <releaseNotes>Support for .NET 4.5</releaseNotes>
     <copyright>Jef King</copyright>
     <language>en-US</language>
     <tags>King.TTrak Azure Synchronize Synchronization NoSQL Tables query row rows data sync entity entities table-storage tables Data-Sync Table Azure-Storage Storage Account Storage-Account King.Azure</tags>
@@ -20,10 +20,10 @@
       <dependency id="King.Azure" />
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System" targetFramework="net451" />
+      <frameworkAssembly assemblyName="System" targetFramework="net45" />
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="King.TTrak\bin\Release\King.TTrak.dll" target="lib\net451\King.TTrak.dll" />
+    <file src="King.TTrak\bin\Release\King.TTrak.dll" target="lib\net45\King.TTrak.dll" />
   </files>
 </package>
