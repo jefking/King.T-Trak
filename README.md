@@ -1,5 +1,5 @@
 #### Synchronize
-+ Move data between Tables
++ Move data between Tables in Azure Table Storage
 
 
 ## [NuGet](https://www.nuget.org/packages/King.TTrak/)
